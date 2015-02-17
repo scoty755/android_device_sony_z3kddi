@@ -15,7 +15,7 @@
 # Inherit the fusion-common definitions
 $(call inherit-product, device/sony/shinano-common/shinano.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/sony/z3/overlay
+DEVICE_PACKAGE_OVERLAYS += device/sony/z3kdi/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -53,4 +53,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/z3/z3-vendor.mk)
+$(call inherit-product, vendor/sony/z3kdi/z3kdi-vendor.mk)
