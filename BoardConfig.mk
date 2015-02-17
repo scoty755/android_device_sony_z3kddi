@@ -28,6 +28,9 @@ BOARD_HARDWARE_CLASS += device/sony/z3kdi/cmhw
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_shinano_leo_defconfig
 
+# For boot loader locked device
+HIJACK_RAMDISK := true
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 25
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656242688 # 12656259072 - 16384
