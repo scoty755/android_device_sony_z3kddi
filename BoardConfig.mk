@@ -38,3 +38,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656242688 # 12656259072 - 16384
 # SELinux
 BOARD_SEPOLICY_DIRS += \
     device/sony/z3kdi/sepolicy
+
+# Signed boot image
+PRODUCT_COPY_FILES += \
+    device/sony/z3kdi/kernel.sin:system/kernel.sin \
