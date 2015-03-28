@@ -15,10 +15,6 @@
 # For boot loader locked device
 HIJACK_RAMDISK := true
 
-# dt.img
-PRODUCT_COPY_FILES += \
-    device/sony/z3kdi/dt.img:dt.img \
-
 # inherit from the common shinano definitions
 include device/sony/shinano-common/BoardConfigCommon.mk
 
