@@ -22,7 +22,7 @@ include device/sony/shinano-common/BoardConfigCommon.mk
 #-include vendor/sony/z3kdi/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := SOL26,z3kdi,z3
+TARGET_OTA_ASSERT_DEVICE := SOL26,z3kdi,z3,D6653
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/z3kdi/include
 
